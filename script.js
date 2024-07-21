@@ -1,6 +1,6 @@
 //write a function to age and return the year you were born using psuedocode.
 //solution: define the function thus:
-function birth_year(age) => {
+function birth_year(age) {
 //hence, summon or invoke the current_year and input age respectively and, compute
 //the birth year as follows:
 let current_year = new Date().getFullYear();
@@ -8,6 +8,6 @@ let current_year = new Date().getFullYear();
   //therfore initialize birth_year,
   console.log(birth_year);
 };
-//given 2024, as the current_year whilst 30 as the age, hence:
+//given age is 30yrs, hence:
 birth_year(30);
 //conclusively, 1994 is therefore the birthyear.
