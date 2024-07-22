@@ -2,8 +2,9 @@
 let title = document.getElementById("title");
 title.addEventListener("click", () => {
     title.style.backgroundColor = "aqua";
-    title.innerHTML = "Failure is the condiment that gives success its flavor.";
+    title.innerHTML = "Failure is the condiment<br> that gives success its flavor.";
     title.style.color = "blue";
+    title.style.animationDirection = "90deg";
 });
 
 
